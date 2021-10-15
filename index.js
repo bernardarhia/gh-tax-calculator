@@ -5,7 +5,7 @@ const cors = require("cors")
 require("dotenv/config")
 const corsOptions = {
     credentials:true,
-    origin:"http://localhost:3000"
+    origin:"*"
 }
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }));
