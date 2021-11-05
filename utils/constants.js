@@ -1,3 +1,4 @@
+
 const SSNIT_RATE = 5.5;
 const NUM_OF_MONTHS = 12;
 const monthlyTaxRates = [
